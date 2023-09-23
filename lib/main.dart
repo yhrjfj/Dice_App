@@ -3,11 +3,11 @@ import 'package:first_app/gradient_container.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
         body: GradientContainer(
           Color.fromRGBO(155, 189, 252, 0.8),
-          Color.fromRGBO(0, 0, 0, 1),
+          Color.fromRGBO(84, 221, 255, 1),
         ),
       ),
     ),
