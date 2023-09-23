@@ -7,7 +7,7 @@ class StyleText extends StatelessWidget {
   Widget build(context) {
     // Add the required BuildContext parameter
     return const Text(
-      'Hello BD...!',
+      'This is a Test App\nWhich is developed by\nShadow Light',
       style: TextStyle(
         color: Colors.white,
         fontSize: 28,
