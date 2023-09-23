@@ -4,6 +4,11 @@ import 'package:flutter/material.dart';
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
 
+// Role Dice function
+void rollDice() {
+  // Code
+}
+
 // 1st way
 class GradientContainer extends StatelessWidget {
   const GradientContainer(this.color1, this.color2, {super.key});
@@ -22,11 +27,15 @@ class GradientContainer extends StatelessWidget {
         ),
       ),
       child: Center(
-        child: Image.asset(
-          'assets/images/dice-2.png',
-          width: 200,
-        ),
-      ),
+          child: Column(
+        children: [
+          Image.asset(
+            'assets/images/dice-2.png',
+            width: 200,
+          ),
+          TextButton(onPressed: rollDice, child: const Text('Roll Dice')),
+        ],
+      )),
     );
   }
 }
