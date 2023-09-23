@@ -20,7 +20,7 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: Center(
+      child: const Center(
         child: StyleText('This is a Test App\nWhich is developed by\nShadow'),
       ),
     );
